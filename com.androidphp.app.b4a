@@ -1,0 +1,144 @@
+﻿Build1=Default,b4a.example
+File1=iniciosesion.bal
+File2=Layout.bal
+File3=password_hidden.png
+File4=password_visible.png
+File5=registro.bal
+File6=updatepass.bal
+File7=updatev.bal
+File8=welcome.bal
+FileGroup1=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+Group=Default Group
+Library1=core
+Library2=fileprovider
+Library3=json
+Library4=okhttputils2
+Library5=xui
+Library6=net
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~ SetApplicationAttribute(android:usesCleartextTraffic, "true")
+Module1=Actualizar
+Module2=Registro
+Module3=Starter
+Module4=UpdatePass
+Module5=Welcome
+NumberOfFiles=8
+NumberOfLibraries=6
+NumberOfModules=5
+Version=12.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Login And Register
+	#VersionCode: 1
+	#VersionName: 
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: false
+#End Region
+
+Sub Process_Globals
+	Private xui As XUI
+	Public idus As String
+End Sub
+
+Sub Globals
+	Dim savedata As HttpJob
+	Private txtCorreo As EditText
+	Private txtContraseña As EditText
+	Dim URL As String
+	Private ImageView3 As ImageView
+	
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("iniciosesion")
+	URL="http://192.168.1.69/PHP/login.php"
+	
+	txtContraseña.PasswordMode = True
+	ImageView3.SetBackgroundImage(LoadBitmap(File.DirAssets, "password_hidden.png"))
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub ImageView3_Click
+	If ImageView3.Tag = "oculto" Then
+		txtContraseña.PasswordMode = False
+		ImageView3.Tag = "visible"
+		ImageView3.SetBackgroundImage(LoadBitmap(File.DirAssets, "password_visible.png"))
+	Else
+		txtContraseña.PasswordMode = True
+		ImageView3.Tag = "oculto"
+		ImageView3.SetBackgroundImage(LoadBitmap(File.DirAssets, "password_hidden.png"))
+	End If
+End Sub
+Private Sub btnIniciar_Click
+	Dim email As String = txtCorreo.Text
+	Dim password As String = txtContraseña.Text
+
+	' SOLICITUD HTTP
+	If validarcorreo(txtCorreo.Text) Then
+	Dim postData As String = "fetch=true&Correo=" & email & "&Contrasena=" & password
+	savedata.Initialize("savedata", Me)
+		savedata.PostString(URL, postData)
+	Else
+		ToastMessageShow("Correo electrónico no válido", False)
+	End If
+
+End Sub
+Sub lblBack_Click
+	'IME.HideKeyboard
+	Activity.Finish
+End Sub
+Sub JobDone (job As HttpJob)
+	Select job
+		Case savedata
+			If job.Success Then
+				If job.GetString.Contains("Inicio de sesión exitoso") Then
+				
+					ToastMessageShow("Inicio de sesión exitoso. ¡Bienvenido!", False)
+					Welcome.CorreoW = txtCorreo.Text
+					txtCorreo.Text = ""
+					txtContraseña.Text = ""
+					Activity.Finish
+					StartActivity(Welcome)
+				Else
+					
+					ToastMessageShow("REVISA TU CORREO O CONTRASEÑA.", False)
+				End If
+			Else
+				
+				ToastMessageShow("Verificar la Conexión", False)
+			End If
+
+			' Libera el objeto HttpJob
+			savedata.Release
+	End Select
+End Sub
+
+Sub validarcorreo(email As String) As Boolean
+	If email.Contains("@") And email.Contains(".com") Then
+		Return True
+	Else
+		Return False
+	End If
+End Sub
+
+Private Sub btnRegistro_Click
+	StartActivity(Registro)
+End Sub
