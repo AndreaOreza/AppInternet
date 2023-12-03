@@ -1,0 +1,94 @@
+--release
+--output
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects
+--lib
+C:\Android\platforms\android-30\android.jar
+C:\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63822351362000\dex_v1\b4ashared.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-debug-63822351362000\dex_v1\debug.zip
+c:\android\tools\..\extras\b4a_remote\androidx\core\core\1.3.1\unpacked-core-1.3.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-runtime\2.2.0\unpacked-lifecycle-runtime-2.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\versionedparcelable\versionedparcelable\1.1.1\unpacked-versionedparcelable-1.1.1\jars\classes.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-core-63822351362000\dex_v1\core.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-json-63822351362000\dex_v1\json.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-xui-63822351364000\dex_v1\xui.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-net-63707040802000\dex_v1\net.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-javaobject-63822351362000\dex_v1\javaobject.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-phone-63822351362000\dex_v1\phone.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-runtimepermissions.androidx-63822351362000\dex_v1\runtimepermissions.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okhttp-63822351362000\dex_v1\okhttp.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-stringutils-63822351364000\dex_v1\stringutils.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okhttp-4.9.0-63822351362000\dex_v1\okhttp-4.9.0.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okio-2.8.0-63822351362000\dex_v1\okio-2.8.0.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okhttp-urlconnection-4.9.3-63822351362000\dex_v1\okhttp-urlconnection-4.9.3.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-kotlin-stdlib-1.6.10-63822351362000\dex_v1\kotlin-stdlib-1.6.10.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-remotelogger-63822351362000\dex_v1\remotelogger.zip
+c:\android\tools\..\extras\b4a_remote\androidx\annotation\annotation\1.1.0\annotation-1.1.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-common\2.2.0\lifecycle-common-2.2.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\arch\core\core-common\2.1.0\core-common-2.1.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\collection\collection\1.1.0\collection-1.1.0.zip
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$attr.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$color.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$dimen.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$drawable.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$id.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$integer.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$layout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$string.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$style.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R$styleable.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\androidx\core\R.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\actualizar$1.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\actualizar$B4AMenuItemsClickListener.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\actualizar$HandleKeyDelayed.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\actualizar$ResumeMessage.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\actualizar$WaitForLayout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\actualizar.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\fileprovider.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\httpjob$_multipartfiledata.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\httpjob.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\httputils2service.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\main$1.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\main$B4AMenuItemsClickListener.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\main$HandleKeyDelayed.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\main$ResumeMessage.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\main$WaitForLayout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\main.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$attr.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$color.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$dimen.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$drawable.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$id.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$integer.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$layout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$string.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$style.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R$styleable.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\R.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\registro$1.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\registro$B4AMenuItemsClickListener.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\registro$HandleKeyDelayed.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\registro$ResumeMessage.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\registro$WaitForLayout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\registro.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\starter$1.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\starter$2.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\starter$starter_BR.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\starter.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\updatepass$1.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\updatepass$B4AMenuItemsClickListener.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\updatepass$HandleKeyDelayed.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\updatepass$ResumeMessage.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\updatepass$WaitForLayout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\updatepass.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\welcome$1.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\welcome$B4AMenuItemsClickListener.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\welcome$HandleKeyDelayed.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\welcome$ResumeMessage.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\welcome$WaitForLayout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\welcome.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\designerscripts\LS_iniciosesion.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\designerscripts\LS_layout.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\designerscripts\LS_registro.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\designerscripts\LS_updatepass.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\designerscripts\LS_updatev.dex
+C:\Users\Andrea Oreza\Downloads\ConexionBase\com.androidphp.app\Objects\dexed\b4a\example\designerscripts\LS_welcome.dex
